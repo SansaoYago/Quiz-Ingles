@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="contain">
+        <a href="../index.html">Voltar</a>
+        <main>
+            <h1>Cadastro de Palavras</h1>
+            <form>
+                <label for="inPalavra">
+                    <p>
+                        Palavra:
+                        <input type="text" name="inPalavra" id="inPalavra" required>
+                    </p>
+                </label>
+                <label for="Trad1">
+                    <p>
+                        1° Tradução:
+                        <input type="text" name="inTrad1" id="Trad1" required>
+                    </p>
+                </label>
+                <label for="Trad2">
+                    <p>
+                        2° Tradução:
+                        <input type="text" name="inTrad2" id="Trad2" placeholder="Se houver">
+                    </p>
+                </label>
+                <label for="Trad3">
+                    <p>
+                        3° Tradução:
+                        <input type="text" name="inTrad3" id="Trad3" placeholder="Se houver">
+                    </p>
+                </label>
+                <input type="submit" value="Registrar">
+            </form>
+        </main>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+
+    <script type="module" src="../js/supabase.js"></script>
+    <script type="module" src="../js/cadastro.js"></script>
+</body>
+
+</html>

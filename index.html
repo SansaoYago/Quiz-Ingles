@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="mobile.css">
+</head>
+
+<body>
+
+    <div class="contain">
+        <a href="pages/cadastro.html">Cadastrar Palavras</a>
+        <main>
+            <section id="quiz">
+                <h1>Quiz Palavras Inglês</h1>
+                <span id="display">KNOW</span>
+                <form>
+                    <label for="inResp">
+                        <p>
+                            Tradução
+                        </p>
+                        <input type="text" name="inResp" id="inResp" autocomplete="off">
+                    </label>
+                    <input type="submit" value="Verificar">
+                </form>
+                <h3></h3>
+            </section>
+        </main>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script type="module" src="js/supabase.js"></script>
+    <script type="module" src="js/quiz.js"></script>
+</body>
+
+</html>
